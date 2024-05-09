@@ -1,0 +1,63 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #adc4fa;
+}
+
+header {
+    background-color: #c30646;
+    color: #75022a;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 50px;
+}
+
+footer {
+    background-color: #31008d;
+    color: #8c00ff;
+    padding: 60px 60px;
+    text-align: center;
+}
+
+/* Thick text */
+h1 {
+    font-weight: bold; /* Makes h1 text thicker */
+}
+
+/* Make text thicker */
+.thicker-text {
+    font-weight: 900; /* Makes text with class "thicker-text" thicker */
+}
+
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+    height: auto; /* Maintains the image's aspect ratio */
+    display: block; /* Ensures the image is displayed as a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+/* Button styling */
+button {
+    padding: 200px 200px;
+    background-color: #c30646;
+    color: #7f0137;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+/* Additional styling for the second button */
+#skins-button {
+    background-color: #7f0137;
+}
